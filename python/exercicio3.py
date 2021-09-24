@@ -3,3 +3,8 @@
 # Imprimir as letras que se encontram nas posições ímpares de trás para frente da frase (posições 1,3,5,7,9, ...);  
 # Contar quantas palavras da frase começam com r ou R e mostrá-las. 
 # Caso não existam palavras que começam comr ou R, deve-se mandar mensagem ao usuário "Não existem palavras que começam com r ou R!". 
+
+word = str(input('Digite uma palavra: '))
+print(f'Letras no indice par: ', word[::2])
+print(f'Letras no indice impar: ', word[1::2])
+
